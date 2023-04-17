@@ -25,3 +25,21 @@
     /* Forcer l'héritage de la propriété box-sizing */
     box-sizing: inherit;
 }
+
+/* sélection du body */
+body {
+    /* Enlève la marge extérieure par défaut du body */
+    margin: 0;
+
+    /* Changement de la couleur de fond à #333 */
+    background-color: black;
+
+    /* On change la boîte en boîte flexible */
+    display: flex;
+
+    /* On met l'axe principal horizontalement */
+    flex-direction: row;
+
+    /* Alignement centré sur l'axe secondaire (ici horizontal) */
+    align-items: center;
+}
