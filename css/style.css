@@ -38,8 +38,10 @@ body {
     display: flex;
 
     /* On met l'axe principal horizontalement */
-    flex-direction: row;
+    flex-direction: column;
 
     /* Alignement centré sur l'axe secondaire (ici horizontal) */
     align-items: center;
+
+    justify-content: center;
 }
