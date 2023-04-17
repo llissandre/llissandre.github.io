@@ -1,0 +1,27 @@
+/* Sélecteur de la racine du document HTML (élement html) */
+/* html { */
+:root {
+    /* Changement de la méthode de calcul des boîtes */
+    box-sizing: border-box;
+
+    /* Prise en compte de 100% de la taille de la police utilisateur */
+    font-size: 1rem;
+
+    /* Changement de la police en Roboto */
+    font-family: 'Roboto', arial, sans-serif;
+
+    /* Déclarations de variables pour les couleurs */
+    --text-anchor-color: white;
+    --text-anchor-color-hover: rgb(218, 127, 24);
+    --backgroung-button-color: rgb(6, 118, 209);
+    --background-header-color: #333;
+    --background-section-color: black;
+}
+
+/* Sélectionne tous les éléments  + pseudo élément before et after */
+*,
+*::after,
+*::before {
+    /* Forcer l'héritage de la propriété box-sizing */
+    box-sizing: inherit;
+}
