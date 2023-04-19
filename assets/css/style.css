@@ -1,0 +1,43 @@
+/* Sélecteur de la racine du document HTML (élement html) */
+/* html { */
+:root {
+  /* Changement de la méthode de calcul des boîtes */
+  box-sizing: border-box;
+
+  /* Déclarations de variables pour les couleurs */
+  --text-anchor-color: white;
+  --text-anchor-color-hover: rgb(218, 127, 24);
+  --backgroung-button-color: rgb(6, 118, 209);
+  --background-header-color: #333;
+  --background-section-color: black;
+}
+
+/* Sélectionne tous les éléments  + pseudo élément before et after */
+*,
+*::after,
+*::before {
+  /* Forcer l'héritage de la propriété box-sizing */
+  box-sizing: border-box;
+}
+
+/* sélection du body */
+body {
+  /* Enlève la marge extérieure par défaut du body */
+  margin: 0;
+
+  /* Changement de la couleur de fond à black */
+  background-color: var(--background-section-color);
+
+  /* On change la boîte en boîte flexible */
+  /* display: flex; */
+
+  /* On met l'axe principal horizontalement */
+  /* flex-direction: column; */
+
+  /* Alignement centré sur l'axe secondaire (ici horizontal) */
+  /* justify-content: center; */
+}
+
+#CV {
+  width: 100%;
+}
