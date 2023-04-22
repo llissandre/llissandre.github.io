@@ -26,7 +26,7 @@ body {
   /* margin: 0; */
 
   /* Changement de la couleur de fond à black */
-  /* background-color: var(--background-section-color); */
+  background-color: var(--background-section-color);
 }
 
 #CV {
